@@ -7,7 +7,10 @@ body {
   background-color: #1f2937;
   display: flex;
   justify-content: space-around;
-  color: white;
+}
+.header h2 {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 nav {
@@ -15,11 +18,11 @@ nav {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-wrap: wrap; /*removed the no wrap default value of nav so i can align its contents*/
+  flex-wrap: wrap; /*removed the no wrap default value of nav so we can align its contents*/
   gap: 25px;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
   font-size: 18px;
 }
