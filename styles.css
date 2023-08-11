@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap; /*removed the no wrap default value of nav so i can align its contents*/
+  gap: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
