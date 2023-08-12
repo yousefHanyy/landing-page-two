@@ -38,7 +38,7 @@ a {
 .secondary-title {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 800;
   margin: 0;
 }
 .secondary-text {
@@ -46,10 +46,9 @@ a {
   font-size: 18px;
   color: #e5e7eb;
 }
-img {
+.below-header img {
   width: 400px;
   height: auto;
-  /* padding-left: 50px; */
 }
 .first-button {
   margin-top: 15px;
@@ -60,4 +59,40 @@ img {
   font-weight: bold;
   border-style: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.info-container {
+  display: flex;
+  gap: 50px;
+}
+.info-header {
+  font-weight: 800;
+  font-size: 36px;
+  color: #1f2937;
+  margin: 45px 0;
+}
+.img-container {
+  width: 170px;
+  height: 170px;
+  border: 4px solid rgb(2, 146, 194);
+  border-radius: 15px;
+}
+.img-container img {
+  border-radius: 10px;
+  width: 100%; /*set width and height 100% to let the image fill the container*/
+  height: 100%;
+  object-fit: contain; /*to not distort the quality of the photo while filling the container*/
+}
+.text {
+  margin-top: 10px;
+  text-align: center;
+  color: #636566;
+  font-size: 18px;
 }
