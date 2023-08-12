@@ -96,3 +96,27 @@ a {
   color: #636566;
   font-size: 18px;
 }
+
+.quote-container {
+  text-align: center;
+  background-color: #e5e7eb;
+}
+.quote {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 950px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  padding: 150px;
+}
+.quote .quoter {
+  text-align: right;
+  color: rgb(17, 17, 17);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 6px;
+}
